@@ -1,0 +1,93 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p{
+    margin: 0;
+}
+
+#weather{
+    text-align: center;
+    padding: 10px;
+    font-size: 48px;
+    text-align: center;
+    color:rgb(0, 150, 255);
+}
+
+#clock{
+    text-align: center;
+    padding: 20px;
+    font-size: 48px;
+    text-align: center;
+    color:rgb(157, 255, 252);
+}
+
+#contents a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#main{
+    background:url("file:///C:/Users/zzink/Desktop/web/Html/MyProjects/green.jpg") no-repeat,
+    rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Dancing Script', cursive;
+}
+
+#contents{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    color:white;
+    text-align: center;
+}
+
+#contents h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    margin-bottom: 16px;
+}
+
+#contents p{
+    font-size: 23px;
+    margin-bottom: 16px;
+}
+
+#contents a{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: all 1.5s;
+}
+
+#contents a:hover{
+    background-color: white;
+}
+
+#time {
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width:769px){
+    #contents h1{
+        font-size: 50px;
+    }
+    
+    #contents p{
+        font-size: 20px;
+    }
+
+    #contents a{
+        font-size: 14px;
+    }
+}
